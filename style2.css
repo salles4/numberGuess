@@ -1,0 +1,61 @@
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-width: 100%;
+}
+.guessDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(8px);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 20px black;
+    min-width: 65vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 10px;
+    text-shadow: 2px 4px 10px black;
+}
+#instruct{
+    margin: 10px;
+    text-align: center;
+}
+#guessDiv{
+    margin: 20px;
+    vertical-align: middle;
+}
+input{
+    width: 150px;
+    font-size: 1.3rem;
+}
+#guessButton{
+    height: 30px;
+    cursor: pointer;
+}
+#result{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px;
+}
+#win{
+    font-size: 1.2rem;
+    text-align: center;
+}
+#try2{
+    display: block;
+}

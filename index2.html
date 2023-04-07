@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1323/1323746.png">
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body> 
+    <video src="galaxy.mp4" loop autoplay muted plays-inline></video>
+    
+    <div class="guessDiv" id="div1">
+        <div id="title">Guess the Number</div>
+        <div id="instruct">Guess the chosen number between 0 and 100</div>
+        <div id="guessDiv">
+            <div id="labelInput">Your guess:</div>
+            <input type="number" min="0" max="100" value="0" id="input">
+            <button id="guessButton">Guess</button>
+        </div>
+        <div id="result"></div>
+        <div id="win"></div>
+        <a href="javascript:randomize()" id="try2">Try Again</a>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
